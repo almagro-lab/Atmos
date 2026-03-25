@@ -1,0 +1,10 @@
+# Build artifacts
+/build
+
+# Unit test reports
+/test-results
+/reports
+
+# Local IDE settings (specific to this module)
+*.iml
+.idea/

@@ -1,0 +1,45 @@
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+externalBuildConfiguration.xml
+jdk.table.xml
+
+# --- Android Project Specifics ---
+# This is where the compiled code lives; never commit this.
+**/build/
+**/intermediates/
+**/outputs/
+**/tmp/
+
+# --- Local Configuration (DO NOT SHARE) ---
+# Contains your local SDK path.
+local.properties
+
+# --- Signing Secrets ---
+# Never commit your keystores or release properties!
+*.jks
+*.keystore
+*.pk8
+*.p12
+release-secrets.properties
+
+# --- Kotlin / Java ---
+*.class
+*.kt.dump
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Log files ---
+*.log
+
+# --- Gradle Wrapper ---
+# Note: It is standard practice to KEEP the wrapper files 
+# so others can build your project without installing Gradle.
+# !gradle/wrapper/gradle-wrapper.jar
+# !gradlew
+# !gradlew.bat
